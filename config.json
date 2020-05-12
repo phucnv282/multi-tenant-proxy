@@ -1,0 +1,20 @@
+{
+    "mysql":{
+        "db": "sshproxy",
+        "host": "localhost",
+        "user": "root",
+        "password": "pw0"
+    },
+    "openstack": {
+        "admin_id": "7ef86bb3358240baac4a14c3ec2ac7cc",
+        "admin_password": "pw0"
+    },
+    "service_endpoints": {
+        "keystone": "http://controller:5000/v3",
+        "nova": "http://controller:8774/v2.1",
+        "neutron": "http://controller:9696/v2.0"
+    },
+    "others": {
+        "public_ip": "112.137.129.214"
+    }
+}
